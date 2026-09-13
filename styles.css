@@ -30,7 +30,7 @@ img { display: block; max-width: 100%; }
 .menu-toggle span:not(.sr-only) { background: var(--paper); display: block; height: 2px; margin: 5px 0; width: 26px; }
 .page-section { position: relative; scroll-margin-top: 20px; }
 .hero { align-items: center; background: radial-gradient(circle at 76% 49%, rgba(164,107,70,.23), transparent 24%), radial-gradient(circle at 78% 50%, rgba(223,32,43,.1), transparent 38%), var(--ink); display: flex; min-height: 730px; padding: 150px 10vw 80px; }
-.hero:after { background-image: linear-gradient(rgba(233,229,220,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(233,229,220,.035) 1px, transparent 1px); background-size: 54px 54px; content: ''; inset: 0; mask-image: linear-gradient(90deg, black, transparent 74%); pointer-events: none; position: absolute; }
+.hero:after { display: none; }
 .hero-grid { display: none; }
 .hero-copy { max-width: 570px; position: relative; z-index: 2; }
 .eyebrow { align-items: center; color: var(--copper); font-size: 11px; font-weight: 700; letter-spacing: .2em; margin: 0 0 18px; text-transform: uppercase; }

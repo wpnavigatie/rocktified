@@ -31,7 +31,7 @@ img { display: block; max-width: 100%; }
 .page-section { position: relative; scroll-margin-top: 20px; }
 .hero { align-items: center; background: radial-gradient(circle at 76% 49%, rgba(164,107,70,.23), transparent 24%), radial-gradient(circle at 78% 50%, rgba(223,32,43,.1), transparent 38%), var(--ink); display: flex; min-height: 730px; padding: 150px 10vw 80px; }
 .hero:after { background-image: linear-gradient(rgba(233,229,220,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(233,229,220,.035) 1px, transparent 1px); background-size: 54px 54px; content: ''; inset: 0; mask-image: linear-gradient(90deg, black, transparent 74%); pointer-events: none; position: absolute; }
-.hero-grid { border-left: 1px solid var(--line); border-right: 1px solid var(--line); height: 100%; left: 10vw; pointer-events: none; position: absolute; right: 10vw; top: 0; }
+.hero-grid { display: none; }
 .hero-copy { max-width: 570px; position: relative; z-index: 2; }
 .eyebrow { align-items: center; color: var(--copper); font-size: 11px; font-weight: 700; letter-spacing: .2em; margin: 0 0 18px; text-transform: uppercase; }
 .eyebrow-line { background: var(--red); display: inline-block; height: 2px; margin-right: 12px; vertical-align: middle; width: 33px; }
@@ -127,7 +127,7 @@ h1 em, h2 em { color: var(--red); font-style: normal; }
   .main-nav a { font-size: 16px; }
   .main-nav .nav-cta { margin-top: 8px; }
   .hero { align-items: stretch; display: flex; flex-direction: column; min-height: 0; padding: 150px 10vw 55px; }
-  .hero-grid { left: 10vw; right: 10vw; }
+  .hero-grid { display: none; }
   .hero-mark { display: none; }
   .hero-copy { max-width: 530px; }
   h1 { font-size: clamp(49px, 12.5vw, 72px); max-width: 430px; }

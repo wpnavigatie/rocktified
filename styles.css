@@ -108,6 +108,7 @@ h1 em, h2 em { color: var(--red); font-style: normal; }
 .contact-inner { max-width: 700px; }
 .contact-inner .eyebrow { color: var(--white); }
 .contact-inner h2 { font-size: clamp(65px, 9vw, 126px); }
+.contact-inner h2 em { color: var(--ink); }
 .contact-inner > p:not(.eyebrow) { font-size: 17px; margin: 34px 0 29px; max-width: 480px; }
 .contact-inner .button { background: var(--ink); }
 .contact-inner .button span { color: var(--red); }

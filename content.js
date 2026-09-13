@@ -1,6 +1,6 @@
 /* Bewerk hier de teksten, shows, contactgegevens en het repertoire. */
 window.ROCKTIFIED_CONTENT = {
-  contactEmail: 'info@rocktified.nl',
+  contactEmail: 'rocktified@hotmail.com',
   aboutIntro: 'Rocktified is een gedreven coverband voor iedereen die rock het liefst live, luid en zonder poespas beleeft. Van de eerste tel tot de laatste toegift: wij spelen alsof het onze eigen stadiontour is.',
   shows: [
     { day: '3', month: 'OCT', weekday: 'ZATERDAG', title: 'Fancy fair', location: 'Koutershof, Rijsbergen', type: 'Gratis' },

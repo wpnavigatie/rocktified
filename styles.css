@@ -127,9 +127,9 @@ h1 em, h2 em { color: var(--red); font-style: normal; }
   .main-nav.open { transform: translateX(0); }
   .main-nav a { font-size: 16px; }
   .main-nav .nav-cta { margin-top: 8px; }
-  .hero { display: block; min-height: 1010px; padding: 175px 10vw 80px; }
+  .hero { align-items: stretch; display: flex; flex-direction: column; min-height: 0; padding: 150px 10vw 55px; }
   .hero-grid { left: 10vw; right: 10vw; }
-  .hero-mark { height: 320px; opacity: .65; right: -15px; top: 680px; width: 320px; }
+  .hero-mark { display: none; }
   .hero-copy { max-width: 530px; }
   h1 { font-size: clamp(49px, 12.5vw, 72px); max-width: 430px; }
   .hero-intro { font-size: 14px; max-width: 380px; }
@@ -154,9 +154,9 @@ h1 em, h2 em { color: var(--red); font-style: normal; }
 }
 
 @media (max-width: 440px) {
-  h1 { font-size: 70px; }
+  .hero { padding: 135px 8vw 45px; }
+  h1 { font-size: 56px; }
   h2 { font-size: 58px; }
-  .hero-mark { top: 700px; }
   .next-date strong { font-size: 88px; }
   .stat-row { gap: 18px; }
   .stat-row strong { font-size: 31px; }

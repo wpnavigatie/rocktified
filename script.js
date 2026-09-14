@@ -38,7 +38,8 @@
   mediaGallery.innerHTML = mediaItems.map(item => {
     const label = item.type === 'image' ? `Foto ${item.number}` : `Video ${item.number}`;
     if (item.type === 'video') {
-      return `<article class="media-card media-video-card reveal"><div class="media-frame"><video src="${item.src}" controls preload="metadata" playsinline aria-label="${label}"></video></div></article>`;
+      const anchor = item.number === 1 ? ' id="media-first-video"' : '';
+      return `<article${anchor} class="media-card media-video-card reveal"><div class="media-frame"><video src="${item.src}" controls preload="metadata" playsinline aria-label="${label}"></video></div></article>`;
     }
     return `<article class="media-card media-photo-card reveal"><div class="media-frame"><img src="${item.src}" alt="${label} van Rocktified" loading="lazy"></div></article>`;
   }).join('');

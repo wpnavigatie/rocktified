@@ -116,7 +116,7 @@ h1 em, h2 em { color: var(--red); font-style: normal; }
 
 @media (max-width: 800px) {
   .site-header { padding: 16px 6vw; }
-  .brand img { height: 60px; width: 185px; }
+  .brand img { height: 90px; width: 277px; }
   .menu-toggle { display: block; position: relative; z-index: 12; }
   .main-nav { align-items: flex-start; background: var(--ink); flex-direction: column; gap: 25px; inset: 0 0 0 25%; justify-content: center; padding: 25px 12vw; position: fixed; transform: translateX(100%); transition: transform .3s ease; }
   .main-nav.open { transform: translateX(0); }

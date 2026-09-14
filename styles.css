@@ -141,7 +141,7 @@ h1 em, h2 em { color: var(--red); font-style: normal; }
   .about-image { min-height: 330px; }
   .split-heading { align-items: flex-start; flex-direction: column; gap: 28px; }
   .repertoire-row { font-size: 27px; grid-template-columns: minmax(120px, 1fr) 27px 1.25fr; }
-  .media-grid { grid-template-columns: 1fr 1fr; }
+  .media-grid { grid-template-columns: 1fr; }
   .contact-section { padding-top: 95px; }
   .contact-footer { align-items: flex-start; flex-direction: column; gap: 13px; margin-top: 80px; }
 }

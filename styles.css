@@ -20,7 +20,7 @@ img { display: block; max-width: 100%; }
 .site-shell { overflow: hidden; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .site-header { align-items: center; display: flex; justify-content: space-between; left: 0; padding: 22px 5.5vw; position: absolute; right: 0; top: 0; z-index: 10; }
-.brand img { background: var(--ink); filter: drop-shadow(0 5px 8px rgba(0,0,0,.35)); height: 76px; mix-blend-mode: screen; object-fit: contain; width: 235px; }
+.brand img { background: var(--ink); filter: drop-shadow(0 5px 8px rgba(0,0,0,.35)); height: 114px; mix-blend-mode: screen; object-fit: contain; width: 352px; }
 .main-nav { align-items: center; display: flex; gap: clamp(18px, 2.7vw, 42px); }
 .main-nav a { color: var(--paper-dark); font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; transition: color .2s ease; }
 .main-nav a:hover, .main-nav a.active { color: var(--red); }

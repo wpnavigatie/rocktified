@@ -27,6 +27,22 @@
     <div class="repertoire-row"><span>${item.artist}</span><strong>-</strong><span>${item.song}</span></div>
   `).join('');
 
+  const gallery = window.ROCKTIFIED_GALLERY;
+  const mediaGallery = $('[data-media-gallery]');
+  const imageItems = gallery.images.slice().sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  const videoItems = gallery.videos.slice().sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  const mediaItems = [
+    ...imageItems.map((src, index) => ({ type: 'image', src, number: index + 1 })),
+    ...videoItems.map((src, index) => ({ type: 'video', src, number: index + 1 }))
+  ];
+  mediaGallery.innerHTML = mediaItems.map(item => {
+    const label = item.type === 'image' ? `Foto ${item.number}` : `Video ${item.number}`;
+    if (item.type === 'video') {
+      return `<article class="media-card media-video-card reveal"><div class="media-frame"><video src="${item.src}" controls preload="metadata" playsinline aria-label="${label}"></video></div></article>`;
+    }
+    return `<article class="media-card media-photo-card reveal"><div class="media-frame"><img src="${item.src}" alt="${label} van Rocktified" loading="lazy"></div></article>`;
+  }).join('');
+
   const menuButton = $('.menu-toggle');
   const navigation = $('.main-nav');
   menuButton.addEventListener('click', () => {

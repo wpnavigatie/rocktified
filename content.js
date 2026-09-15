@@ -1,7 +1,7 @@
 /* Bewerk hier de teksten, shows, contactgegevens en het repertoire. */
 window.ROCKTIFIED_CONTENT = {
   contactEmail: 'rocktified@hotmail.com',
-  aboutIntro: 'Rocktified is een gedreven coverband voor iedereen die rock het liefst live, luid en zonder poespas beleeft. Van de eerste tel tot de laatste toegift: wij spelen alsof het onze eigen stadiontour is.',
+  aboutIntro: '					Rocktified is een coverband uit de omgeving van Zundert met een sterke live-reputatie en al 16 jaar een vaste waarde op verschillende podia en feesten. De huidige bezetting bestaat uit Demi (zang), Bart (gitaar), Ed (bas) en Dave (drums) – een hechte groep muzikanten die met zichtbaar plezier samen speelt. Met een repertoire vol rockklassiekers en herkenbare hits uit de jaren ’80 en ’90 zorgt Rocktified voor een energieke, toegankelijke show waar het publiek makkelijk in mee kan. Geen ingewikkeld gedoe, gewoon goede muziek, gespeeld met overtuiging en chemie op het podium.',
   shows: [
     { day: '3', month: 'OCT', weekday: 'ZATERDAG', title: 'Fancy fair', location: 'Koutershof, Rijsbergen', type: 'Gratis' },
     { day: '11', month: 'SEP', weekday: 'VRIJDAG', title: 'Bandjes & Borrels', location: 'Baanhof, Wouw', type: 'Afgelopen' },
